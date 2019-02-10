@@ -3,7 +3,7 @@ ul {
   margin: 0;
   padding: 0;
   overflow: hidden;
-  background-color: #333;
+  background-color: #6ec1e6;
   top: 0;
   width: 100%;
   font-family: "verdana", sans-serif;
@@ -21,10 +21,10 @@ li a {
 }
 
 li a:hover {
-  background-color: #111;
+  background-color: #f5deb3;
 }
 body {
-  background-color: lightgray;
+  background-color: #6ec1e6;
 }
 .header {
   padding: 20px;
@@ -45,7 +45,9 @@ body {
 .column.middle {
   width: 80%;
   font-family: "verdana", sans-serif;
+  position: sticky;
 }
+
 
 @media screen and (max-width: 600px) {
   .column.side, .column.middle {
